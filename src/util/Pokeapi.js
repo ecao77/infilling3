@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 export default function Pokeapi() {
-
+    
   const [name, setname] = useState("");
   const [Find, setFind] = useState("litwick");
   const [Img, setImg] = useState("");
